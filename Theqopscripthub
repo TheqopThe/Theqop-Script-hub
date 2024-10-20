@@ -14558,3 +14558,10 @@ loadstring(game:HttpGet("https://pastebin.com/raw/zF6Rdky0"))()
    end,
 })
 
+local Button = TsbTab:CreateButton({
+   Name = "Tatsumaki to Sans",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+   end,
+})
+
