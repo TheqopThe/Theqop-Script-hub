@@ -14580,7 +14580,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/f6Wf6BYA"))()
 })
 
 local Button = TsbTab:CreateButton({
-   Name = "Saitama To Gojo (anti death counter, best)",
+   Name = "Saitama To Gojo (best)",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
    end,
