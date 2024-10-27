@@ -14572,3 +14572,10 @@ loadstring(game:HttpGet("https://pastebin.com/raw/yd6MsiPK",true))()
    end,
 })
 
+local Button = TsbTab:CreateButton({
+   Name = "Garou to Suiryu from temu - Avito",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/f6Wf6BYA"))()
+   end,
+})
+
