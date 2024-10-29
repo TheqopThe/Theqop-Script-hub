@@ -6028,12 +6028,6 @@ end
    end,
 })
 
-local Button = UniversalTab:CreateButton({
-   Name = "Art In chat",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/Choose-ARt-able-remove/main/wassdaadwasda"))()
-   end,
-})
 
 local Slider = UniversalTab:CreateSlider({
    Name = "Hitbox Size of players, CAN GIVE LAGS!",
@@ -14583,6 +14577,110 @@ local Button = TsbTab:CreateButton({
    Name = "Saitama To Gojo (best)",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+   end,
+})
+
+local AvtorTab = Window:CreateTab("Avtor Scripts", 4483362458) -- Title, Image
+
+local Button = AvtorTab:CreateButton({
+   Name = "Copy Avtor Scripts Telegram",
+   Callback = function()
+-- Функция для копирования ссылки и уведомления игрока
+local function copyLinkAndNotify()
+    local url = "https://t.me/AvtorScripts"
+    setclipboard(url) -- Копируем ссылку в буфер обмена
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Telegram Of Avtor Copied",
+        Text = "https://t.me/AvtorScripts copied.",
+        Duration = 5
+    })
+end
+
+-- Проверяем текущего игрока
+local player = game.Players.LocalPlayer
+
+-- Копируем ссылку и уведомляем игрока при каждой загрузке скрипта
+copyLinkAndNotify()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "MultiTools V1",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/MultiToolsV1/main/script"))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Fe Freaky Hub Gui",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Hug-Gui-R6-17818"))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Mewing",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Valiant-Ui-Lib-Gazed-/refs/heads/main/Head%20Down'))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Universal Destroy Delay roblox buttons",
+   Callback = function()
+while true do
+wait(0,3)
+for i,v in ipairs(game:GetService("Workspace"):GetDescendants()) do if v.ClassName == "ProximityPrompt" then v.HoldDuration = 0 end end
+end
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Universal Modifier Gui",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Modifier%20Gui'))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Universal Keyboard Gui",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = " FE Telekinesis V5",
+   Callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty11.lua"))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Fe Chat Art V1",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-chat-draw-script-17621"))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Fe Chat Breaker Old Chat",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/Chat-Breaker/main/Protected_5902323854612592.lua"))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Fe Chat Breaker New Chat",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/Chat-Breaker-V2-NEW-CHAT-/main/Protected_9351429662169082.lua"))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   -- The function that takes place when the button is pressed
    end,
 })
 
