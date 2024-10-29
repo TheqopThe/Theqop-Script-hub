@@ -14678,6 +14678,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/Chat-Bre
 })
 
 local Button = AvtorTab:CreateButton({
+   Name = "TAS",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/8rrPXjVs'))()
+   end,
+})
+
+local Button = AvtorTab:CreateButton({
    Name = "Button Example",
    Callback = function()
    -- The function that takes place when the button is pressed
